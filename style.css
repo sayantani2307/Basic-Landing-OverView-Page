@@ -1,0 +1,121 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('./img/bgc1.jpg');
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Bar styles */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #ffd700; /* Gold color for logo */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul li a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease; /* Add transition effect */
+  }
+  
+  nav ul li a img:hover {
+    transform: scale(1.2); /* Scale up image on hover */
+  }
+  
+  /* Background Image Section styles */
+  .background-image-section {
+    background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .background-image-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .background-image-section p {
+    font-size: 18px;
+  }
+  
+  /* Body Content styles */
+  .content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .content h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .content input[type="text"],
+  .content button {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .content button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition effect */
+  }
+  
+  .content button:hover {
+    background-color: #555; /* Darken button on hover */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
